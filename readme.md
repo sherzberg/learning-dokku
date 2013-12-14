@@ -55,3 +55,8 @@ $ git push apps master
 ```
 
 The console should spit out some information about pushing the code to _apps_ and linking the database.
+
+License
+=======
+
+MIT. See LiCENSE file.
