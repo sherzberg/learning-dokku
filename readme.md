@@ -59,4 +59,4 @@ The console should spit out some information about pushing the code to _apps_ an
 License
 =======
 
-MIT. See LiCENSE file.
+MIT. See LICENSE file.
