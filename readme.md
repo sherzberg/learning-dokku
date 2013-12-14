@@ -8,10 +8,10 @@ Why not use the nodejs app in the Dokku readme? Because.
 Things to test out
 ------------------
 
-[x] Deploy this repo as a Dokku app
-[x] Dokku Postgres Plugin
-[ ] Running DB Migrations on Deploy
-[ ] Running Procfile workers (multiple processes)
+- [x] Deploy this repo as a Dokku app
+- [x] Dokku Postgres Plugin
+- [ ] Running DB Migrations on Deploy
+- [ ] Running Procfile workers (multiple processes)
 
 Deploy this repo as a Dokku app
 -------------------------------
