@@ -44,12 +44,13 @@ $ dokku help
 
 This will spew a bunch of logs about building and tagging a dockker instance. If you see a command that starts with _postgresql_, the plugin is successfully installed.
 
-Now create a linked database for the _learning-dokku_ app we setup earlier (from the dokku host):
+Now create a linked database for the _learning-dokku_ app we setup earlier (from the **__dokku__** host):
 
 ```bash
 $ dokku postgresql:create learning-dokku
 ```
-This command runs a postgresql instance on the Dokku host machine and sets will automatically set an environment varialbe DATABASE_URL for the _learning-dokku_ app. The simple Django app in this repo is already setup to accept this environment variable so lets push the change from your local machine:
+
+This command runs a postgresql instance on the Dokku host machine and sets will automatically set an environment variable DATABASE_URL for the _learning-dokku_ app. The simple Django app in this repo is already setup to accept this environment variable so lets push the change from your **__local machine__**:
 
 ```bash
 $ git push apps master
