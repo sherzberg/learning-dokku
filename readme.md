@@ -22,7 +22,7 @@ Once Dokku is setup, you should be able to run these commands on your local mach
 
 ```bash
 $ git clone https://github.com/sherzberg/learning-dokku.git
-$ git remote add apps $DOMAIN:learning-dokku
+$ git remote add apps dokku@$DOMAIN:learning-dokku
 $ git push apps master
 ```
 
